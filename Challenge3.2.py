@@ -1,4 +1,3 @@
-
 def sort_students(student_list):
     # Sort the student list based on CGPA in descending order
     sorted_students = sorted(student_list, key=lambda student: student['cgpa'], reverse=True)
